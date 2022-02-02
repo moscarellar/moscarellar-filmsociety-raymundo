@@ -6,6 +6,18 @@
     border: none;
 }
 
+
+body{
+    font-family: Rubik, sans-serif;
+    color: #3a3a3a;}
+
+h2 {
+    font-family: Rubik, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;}
+
+    /* logo */
+
 #logo {
     font-family: Monoton, sans-serif;
     color: #4C2039;
@@ -42,16 +54,28 @@
 border-bottom: 2px solid #AC194D;
 }
 
-body{
-    font-family: Rubik, sans-serif;
-    color: #3a3a3a;}
+/* main image*/
 
-h2 {
-    font-family: Rubik, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;}
+#hero-photo {    
+    height: 700px;
+    width: 100%;
+    background: url(/assets/images/cinema-entrance.jpg) no-repeat center center;
+    overflow: hidden;
+    animation-name: zoom-out;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
 
+/*animation*/
 
+@keyframes zoom-out {
+    from {
+        transform: scale(.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
 
 #photos {
     clear: both;
