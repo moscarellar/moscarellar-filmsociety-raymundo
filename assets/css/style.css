@@ -8,10 +8,50 @@
 
 #logo {
     font-family: Monoton, sans-serif;
+    color: #4C2039;
+    float: left;
+    font-size: 300%;
+    line-height: 75px;
 }
+
+    /* nav menu */
+
+#nav-menu {
+    font-size: 120%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    margin-right: 40px;
+    line-height: 75px;
+    float: right;
+}
+#nav-menu li{
+    float: left;
+    margin-right: 25px;
+}
+
+#nav-menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    color: #FD005F;
+  }
+
+.now {
+border-bottom: 2px solid #AC194D;
+}
+
 body{
     font-family: Rubik, sans-serif;
-}
+    color: #3a3a3a;}
+
+h2 {
+    font-family: Rubik, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;}
+
+
 
 #photos {
     clear: both;
