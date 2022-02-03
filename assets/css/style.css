@@ -56,6 +56,7 @@ border-bottom: 2px solid #AC194D;
 
 /* main image*/
 
+
 #hero-photo {    
     height: 700px;
     width: 100%;
@@ -64,6 +65,7 @@ border-bottom: 2px solid #AC194D;
     animation-name: zoom-out;
     animation-duration: 4s;
     animation-fill-mode: forwards;
+    position: relative;
 }
 
 /*animation*/
@@ -77,6 +79,83 @@ border-bottom: 2px solid #AC194D;
     }
 }
 
+
+#welcome-message {
+    letter-spacing: 3px;
+    width: 270px;
+    height: 200x;
+    color: white;
+    padding: 10px;
+    background-color: black;
+
+    bottom: 150px;
+    left: 150px;
+    position: absolute;
+}
+
+/*main section*/
+
+#main-activities {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: 30px 0;
+    padding-bottom: 30px;
+
+}
+
+
+.tittle{
+    margin: auto;
+    background-color: #AC194D;
+    padding: 25px;
+    text-align: center;
+    border: 30px solid white;
+    color: white;
+}
+
+
+.left {
+        padding-top: 30px;
+        width: 33%;
+        float: left;
+    }
+
+.right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.center  {
+    padding-top: 30px;
+    width: 33%;
+    margin: auto;
+}
+
+.activity {
+    width: 360px;
+    height: 360px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #FD005F;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-bottom: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* */
+
 #photos {
     clear: both;
     line-height: 0;
@@ -87,3 +166,20 @@ border-bottom: 2px solid #AC194D;
 #photos > img {
     width: 100%;
 }
+
+/* footer */
+
+.socialmedia {
+    text-align: right;
+}
+
+.socialmedia li {
+    display: inline;
+}
+
+.socialmedia i {
+    font-size: 150%;
+    color: #7F0236;
+    padding: 1.5%;
+}
+
