@@ -10,7 +10,7 @@
 body{
     font-family: Rubik, sans-serif;
     color: #3a3a3a;}
-
+    
 h2 {
     font-family: Rubik, sans-serif;
     text-transform: uppercase;
@@ -24,6 +24,7 @@ h2 {
     float: left;
     font-size: 300%;
     line-height: 75px;
+    margin-left: 30px;
 }
 
     /* nav menu */
@@ -163,6 +164,7 @@ border-bottom: 2px solid #AC194D;
     column-count: 3;
     column-gap: 2;
     margin: auto;
+    padding-top: 20px;
 }
 
 #gallerysection > img {
@@ -174,7 +176,7 @@ border-bottom: 2px solid #AC194D;
 #form {
 	width: 95vw;
 	height: 500px;
-    overflow: hidden;
+    clear: left;
 }
 
 .choose-form {
@@ -204,12 +206,44 @@ border-bottom: 2px solid #AC194D;
     resize: none;
 }
 
+.button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #AC194D;
+    color: #fafafa;
+    display: block;
+}
 
+/* map */
+.location {
+display: inline;
+    clear: both;
+    overflow: hidden;
+}
+.map {
+    width: 55%;
+	height: 300px;
+    float: left;
+	margin-top: 25px;
+    margin-left: 25px;
+}
 
+.contact {
+    width: 25%;
+	height: 300px;
+   float: right;
+   margin-top: 0px;
+    margin-right: 25px;
+
+}
 /* footer */
 
 .socialmedia {
-    text-align: right;
+    text-align: center;
+clear: both;
 }
 
 .socialmedia li {
