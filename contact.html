@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The Film Society is a club for movie lovers in Dublin">
     <meta name="keywords" content="films, film society, film festival, ireland, dublin">
+
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Film Society</title>
 
@@ -18,32 +20,32 @@
             <h1 id="logo">The Film Society</h1>
         </a>
     <!-- Navbar -->
-    <nav class="navbar"> 
-        <ul class="navbar"> 
-            <li><a href="index.html" class="now">Home</a></li> 
-            <li><a href="gallery.html">Gallery</a></li> 
-            <li><a class="active" href="contact.html">Contact</a></li> 
+    <nav> 
+        <ul id="nav-menu"> 
+            <li><a  href="index.html">Home</a></li> 
+            <li><a  href="gallery.html">Gallery</a></li> 
+            <li><a class="now" href="contact.html">Contact</a></li> 
         </ul> 
     </nav>
     </header>
 
 
 <!-- Sign-up Form -->
-<div>
+<div id="form">
     <section class="form">
-	<form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+	<form method="POST" action="https://formdump.codeinstitute.net/" class="choose-form">
 		<h1>Contact us!</h1>
         <label for="firstname">First Name</label>
-        <input id="firstname" name="first_name" type="text" class="text-input" required>
+        <input id="firstname" name="first_name" type="text" class="text" required>
 
         <label for="lastname">Last Name</label>
-        <input id="lastname" name="last_name" type="text" class="text-input" required>
+        <input id="lastname" name="last_name" type="text" class="text" required>
 
         <label for="emailaddress">Email Address</label>
-        <input type="email" id="emailaddress" name="email_address" class="text-input" required>
+        <input type="email" id="emailaddress" name="email_address" class="text" required>
 
         <label for="activity">Which activity are you interested in?</label>
-        <select name="activities" id="activities">
+        <select name="activities" id="activities" name="activities" class="text" required>
             <option value="join">Join Us!</option>
             <option value="festival">Film Festival</option>
             <option value="workshop">Filmmaking Workshops</option>
@@ -51,7 +53,8 @@
           </select>
 
         <label for="message">Message</label>
-        <textarea name="message" id="message" rows="8" placeholder="Leave message here"></textarea> 
+        <hr>
+        <textarea name="message" id="message" rows="8" placeholder="Leave message here" class="text"></textarea> 
 
         <input class="join-button" type="submit" value="Send Message">
     
@@ -74,10 +77,10 @@
         </iframe>
     </div>
     </div>
-   <!-- Footer -->
 
-   <footer>
-    <ul class="social-networks">
+ <!-- Footer -->
+ <footer>
+    <ul class="socialmedia">
         <li>
             <a href="https://facebook.com" target="_blank" rel="noopener"
                 aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
@@ -85,20 +88,20 @@
         <li>
             <a href="https://twitter.com" target="_blank" rel="noopener"
                 aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://youtube.com" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://instagram.com" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-        </li>
-    </ul>
-</footer>
-
-<!-- font awesome script  -->
-<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
+                <li>
+                    <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                </li>
+                </li>
+            </ul>
+        </footer>
+        
+        <!-- font awesome script  -->
+        <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    </body>
+    
+    </html>
