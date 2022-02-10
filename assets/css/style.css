@@ -107,15 +107,8 @@ border-bottom: 2px solid #AC194D;
 
 #main-activities {
     background-color: white;
-    height: 100%;
     width: 100%;
-    margin: 30px 0;
-    padding-bottom: 30px;
-
 }
-
-
-
 
 .left {
         padding-top: 30px;
@@ -152,6 +145,14 @@ border-bottom: 2px solid #AC194D;
   padding-bottom: 20px;
 }
 
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    padding-bottom: 20px;
+    }
+    
 .text-center {
     text-align: center;
 }
@@ -252,7 +253,7 @@ display: inline;
 
 .socialmedia {
     text-align: center;
-clear: both;
+    clear: both;
 }
 
 .socialmedia li {
@@ -270,19 +271,34 @@ clear: both;
 
 @media screen and (max-width: 1300px) {
      
+    #hero-photo {    
+        height: 350px;
+        width: 100%;
+    }
+
+    #welcome-message {    
+        bottom: 50px;
+        left: 50px;}
+
     #main-activities {
         width: 65%;
-        height: 1300px;
+        height: 100%;
         margin: 0 auto;
+    }
+
+    #main-activities p {
+        clear: both;
+        text-align: justify;
     }
 
 .activity {
     width: 100%;
-    height:500px;
+    height: 100%;
     padding: 0;
     border-style: none;
     margin: 0 auto;
-}
+
+    }
 
     .left, .right{
         width: 100%;
@@ -300,8 +316,11 @@ clear: both;
         padding-top: 10px;
         padding-bottom: 10px;
         margin: auto;    
-
 }
+
+    .centerimg {
+        width: 40%;
+    }
 
 #gallerysection {
     width: 100%;
@@ -311,6 +330,7 @@ clear: both;
     margin: auto;
     padding-top: 20px;
 }
+
 
 }
 
