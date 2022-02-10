@@ -164,15 +164,14 @@ border-bottom: 2px solid #AC194D;
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 2;
     margin: auto;
     padding-top: 20px;
 }
 
 #gallerysection > img {
-    width: 95%;
+    width: 100%;
     border-radius: 25px;
-    margin: 2px;
+    margin-bottom: 2px;
 }
 /* form section */
 
@@ -322,16 +321,6 @@ display: inline;
         width: 40%;
     }
 
-#gallerysection {
-    width: 100%;
-    clear: both;
-    line-height: 0;
-    column-count: 2;
-    margin: auto;
-    padding-top: 20px;
-}
-
-
 }
 
 /*media q*/
@@ -340,7 +329,6 @@ display: inline;
 
     #gallerysection {
         column-count: 1;}
-
 
         /* map */
 .location {
