@@ -24,6 +24,7 @@ h2 {
     font-size: 300%;
     line-height: 75px;
     margin-left: 30px;
+    margin-right: 30px;
 }
 
     /* nav menu */
@@ -32,13 +33,12 @@ h2 {
     font-size: 120%;
     letter-spacing: 3px;
     list-style-type: none;
-    margin-right: 40px;
     line-height: 75px;
     float: right;
 }
 #nav-menu li{
     float: left;
-    margin-right: 25px;
+    margin-right: 30px;
 }
 
 #nav-menu a{
@@ -356,10 +356,18 @@ display: inline;
     }
 }
 
+/*media q*/
+/*for logo and nav bar*/
+@media screen and (max-width: 600px){
 
+/* logo */
 
+    #logo {
+    width: 100%;
+    font-family: Monoton, sans-serif;
+    font-size: 250%;
+    margin: auto;
+    text-align: center;
+}
 
-
-
-
-
+    /* nav menu */
