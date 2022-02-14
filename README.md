@@ -4,7 +4,7 @@ This is the main site for The Film Society. Is designed to be responsive and acc
 This website was created with the purpose of completing the first Project of Code Institute Software Developer program.
 Find the  website [here](https://moscarellar.github.io/moscarellar-filmsociety-raymundo).
 
-![Website mockup](README-docs/mockup.JPG)
+![Website mockup](README/mockup.png)
 
 ## Table of Contents
 
@@ -33,9 +33,7 @@ Find the  website [here](https://moscarellar.github.io/moscarellar-filmsociety-r
 The website consists of 3 html pages.
 
 * A landing page with a Hero Image which presents right away the building of the theater. It has a Nav Menu that links to the Gallery and Contact sites.
-
 * A Gallery page displaying main activities held by The Film Society.
-
 * A Contact page with a form for enquiries, a map showing the location.
 
 ## Design
@@ -49,18 +47,18 @@ I used 1 font for the logo and 1 font for the site. There is no text-transform a
 ### Color Scheme
 Our color pallete is created of the following colors. 
 
-![color palette](README-docs/color-scheme.JPG)
+![Color palette](README/colors.png)
 
 These colors were taken from the main hero image. As this image is used as the hero image, we used these colors for the logo and color palette.
 
 ###Wireframes
 Balsamiq was used in order to sketch the layout of the website.
 
-![First page wireframe](README-docs/first-page.png)
+![First page wireframe](README/wireframe1.png)
 
-![Second page wireframe](README-docs/second-page.png)
+![Second page wireframe](README/wireframe2.png)
 
-![Third page wireframe](README-docs/third-page.png)
+![Third page wireframe](README/wireframe3.png)
 
 ## Features
 
@@ -69,31 +67,35 @@ The Logo I chose is a strong, bold logo and has the intention to set a classy th
 
 The Navigation Bar is fully responsive and includes links to Home page, Gallery and Contact page.
 
-![website header](README-docs/header.JPG)
+![Logo and Nav Bar](README/logo-navbar.png)
 
 Landing Page Image
 The Landing Page includes an image with an animation and a text box that displays right away a message with a call to action to join The Film Society. 
 
 Main Activities held on The Film Society are displayed and separated in three parts so it can be easily identified by the eye.
 
-![hero page body](README-docs/hero-body.JPG)
+![Landing - Hero Image](README/hero-image.png)
+
+![Main Activities](README/main.png)
  
 Footer
 Footer includes icons to most known social media accounts. They open on a new tab so it does not compromise navigation. 
 
-![footer](README-docs/footer.JPG)
-Gallery 
+![Footer](README/footer.png)
 
+Gallery 
 This section includes pictures with representation of all activities held in The Film Society. It has the intention to show it is not only a place to gather for screenings, but there is actually a community that interacts in other activities.
-![gallery](README-docs/gallery.JPG)
+
+![Gallery](README/gallery.png)
 
 Contact
 The Contact page is the main point of contact between the user and the institution. We find a form in which the user will be able to Join the Film Society, or ask to be included or inquiry about any other of the activities is interested in.
-![query form](README-docs/query-form.JPG)
+
+![Form](README/form.png)
 
 I have included a Map and Contact Information such as email and telephone numbers.
 
-![google map location](README-docs/map-location.JPG)
+![Location and Contact](README/location-contact.png)
 
 ## Technologies
 
@@ -106,11 +108,11 @@ These were the 2 languages I used to create this site.
 
 1. Google Fonts
 2. Font Awesome
-3. Gitpod:
- 4. GitHub:
- 5. Balsamiq:
- 6. OnlineImageCompressor:
- 7. Formatting:
+3. Gitpod
+4. GitHub
+5. Balsamiq
+6. OnlineImageCompressor
+7. Formatting
     * The css file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
 
 ##Testing
@@ -122,6 +124,8 @@ CSS: No errors were found when passing through the official W3C validator.
 
 Lighthouse
 Initially, lighthouse gave poor results, however, after following recommendations of running lighthouse in Incognito Window, scores improved dramatically. As it is mentioned in the course tutorial that Accessibility Scores are the most important, I feel very confident about my first project.
+
+![Lighthouse](README/lighthouse.png)
 
 Bugs
 The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. 
