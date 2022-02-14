@@ -371,3 +371,20 @@ display: inline;
 }
 
     /* nav menu */
+
+    #nav-menu {
+        width: 100%;
+        font-size: 120%;
+        line-height: 75px;
+        margin: auto;
+        text-align: center;
+    }
+    #nav-menu li{
+        width: 100%;
+        display: inline;
+        clear: both;
+        margin: auto;
+        float: none;
+        }
+
+        
