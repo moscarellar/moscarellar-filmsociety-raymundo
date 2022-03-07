@@ -115,7 +115,7 @@ These were the 2 languages I used to create this site.
 7. Formatting
     * The css file was passed through https://beautifier.io/ for a consistent formatting throughout the code. 
 
-##Testing
+## Testing
 Testing was important in order to ensure that the site was responsive in different screen sizes. Tested on Chrome, Safari (Computer Screens and Mobile). 
 I ensured all links were working fine.
 
@@ -131,13 +131,13 @@ Bugs
 The main bugs issues were around the responsiveness on mobile phones and smaller screens. Images would layout one over the other, when the intention was each image to occupy its own space. 
 After rewatching tutorials and using Google as a tool to debug my project, I began to understand dynamics for elements much better, specially around Clear:Both and Overflow:Hidden. Also given each element the appropriate % rate to keep it consistent with the screen. I believe this was the biggest challenge/learning in this project.
 
-##Deployment
+## Deployment
 Site was deployed to GitHub.
 In order to deploy I followed instructions in tutorials offered by Code Institute. Choosing the right option in the source section (Main/Master Branch).
 
 I began to apply (to some extent) constant commits for the website. However I believe there is the need to do it more often. I believe as a beginner this practice will be more and more common in future projects.
 
-##Credits
+## Credits
 
 It is very important to mention, even due no direct copy of code was done, the CI Love Running Project gave me a strong base to develop this page. This is my first time working on a web site development, so it is natural this is my main reference. However, I tried to make variations of this code so I could show control and understanding over the code I was using.
 
