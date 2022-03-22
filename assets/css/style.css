@@ -69,6 +69,7 @@ h2 {
     animation-duration: 4s;
     animation-fill-mode: forwards;
     position: relative;
+    display: flex;
 }
 
 /*animation*/
@@ -280,11 +281,16 @@ h2 {
     #hero-photo {
         height: 350px;
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #welcome-message {
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.5);
+        width: 270px;
+        height: 250px;
+        position: initial;
+        background-color: rgba(0, 0, 0, 0.8);
     }
 
     #main-activities {
