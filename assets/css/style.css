@@ -68,7 +68,6 @@ h2 {
     animation-name: zoom-out;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    position: relative;
     display: flex;
 }
 
