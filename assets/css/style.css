@@ -92,7 +92,7 @@ h2 {
     padding: 10px;
     background-color: black;
 
-    bottom: 150px;
+    bottom: 30px;
     left: 150px;
     position: absolute;
 }
@@ -283,14 +283,13 @@ h2 {
     }
 
     #welcome-message {
-        bottom: 50px;
-        left: 50px;
+        left: 0;
     }
 
     #main-activities {
         width: 65%;
         height: 100%;
-        margin: 0 auto;
+        margin: auto;
     }
 
     #main-activities p {
