@@ -64,7 +64,6 @@ h2 {
     height: 700px;
     width: 100%;
     background: url(../images/cinema-entrance.jpg) no-repeat center center;
-    overflow: hidden;
     animation-name: zoom-out;
     animation-duration: 4s;
     animation-fill-mode: forwards;
