@@ -90,7 +90,6 @@ h2 {
     color: white;
     padding: 10px;
     background-color: black;
-
     bottom: 30px;
     left: 150px;
     position: absolute;
@@ -279,7 +278,6 @@ h2 {
     #hero-photo {
         height: 350px;
         width: 100%;
-        display: flex;
         align-items: center;
         justify-content: center;
     }
