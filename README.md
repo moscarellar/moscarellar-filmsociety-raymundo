@@ -119,7 +119,8 @@ These were the 2 languages I used to create this site.
 Testing was important in order to ensure that the site was responsive in different screen sizes. Tested on Chrome, Safari (Computer Screens and Mobile). 
 I ensured all links were working fine.
 
-HTML: No errors were returned when passing through the official W3C validator. 
+HTML: No errors were returned when passing through the official W3C validator. For gallery site there is a warning for line 33, asking to include a h element. However, for a better aesthetic I decided not to include it.
+
 CSS: No errors were found when passing through the official W3C validator.
 
 Lighthouse
